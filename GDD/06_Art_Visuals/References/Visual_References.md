@@ -1,10 +1,10 @@
-\section{Referencias Visuales}
+\subsection{Referencias}
 
-\subsection{Proposito}
+\subsubsection*{Propósito}
 
-Este apartado se reserva para referencias visuales del proyecto, incluyendo imagenes de inspiracion, capturas de estilos artisticos, paletas comparativas, tilesets de estudio y ejemplos de composicion para escenarios goticos en pixel art.
+Este apartado se reserva para referencias visuales del proyecto, incluyendo imágenes de inspiración, capturas de estilos artísticos, paletas comparativas, tilesets de estudio y ejemplos de composición para escenarios góticos en pixel art.
 
-\subsection{Criterios de seleccion}
+\subsubsection*{Criterios de selección}
 
-Las referencias deben apoyar la direccion visual sin reemplazar la produccion original del equipo. Cada referencia incorporada debe indicar su origen, funcion dentro del analisis y elementos que se desean estudiar, tales como color, silueta, iluminacion, atmosfera o composicion.
+Las referencias deben apoyar la dirección visual sin reemplazar la producción original del equipo. Cada referencia incorporada debe indicar su origen, función dentro del análisis y elementos que se desean estudiar, tales como color, silueta, iluminación, atmósfera o composición.
 
