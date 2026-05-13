@@ -2,7 +2,74 @@
 
 La dirección artística de \emph{Chronicles of the Cursed Knight} toma inspiración de videojuegos de fantasía oscura, arquitectura gótica y composiciones visuales centradas en atmósfera, profundidad y legibilidad en pixel art.
 
-Las referencias utilizadas funcionan como apoyo conceptual para definir:
+El presente apartado recopila las referencias visuales, técnicas y narrativas utilizadas como inspiración durante el desarrollo de \textit{Chronicles of the Cursed Knight}. Estas referencias permiten establecer una dirección artística coherente y sirven como guía conceptual para aspectos relacionados con escenarios, ambientación, composición visual, narrativa ambiental, diseño de interfaces y estilo de comunicación entre personajes.
+
+Las referencias seleccionadas no tienen como objetivo replicar directamente otros videojuegos, sino estudiar soluciones visuales y mecánicas que contribuyan al desarrollo de una identidad propia dentro del proyecto.
+
+\subsubsection*{Referencias principales}
+
+\textbf{Hollow Knight}  
+El videojuego \textit{Hollow Knight} representa una de las principales referencias para la construcción de atmósferas oscuras y escenarios con sensación de profundidad. Su uso de fondos multicapa y efectos de \textit{parallax} sirve como inspiración para implementar entornos 2.5D dentro de un videojuego de plataformas completamente bidimensional.
+
+Entre los elementos analizados destacan:
+
+\begin{itemize}
+    \item Construcción de escenarios melancólicos y misteriosos.
+    \item Uso de iluminación ambiental tenue.
+    \item Profundidad visual mediante fondos dinámicos.
+    \item Integración entre exploración y narrativa ambiental.
+    \item Claridad visual durante plataformas y combate.
+\end{itemize}
+
+Asimismo, \textit{Hollow Knight} demuestra cómo mantener una atmósfera inmersiva utilizando diseño visual minimalista combinado con composición artística sólida.
+
+\vspace{0.3cm}
+
+\textbf{Videojuegos clásicos de LEGO desarrollados por TT Games}  
+Los videojuegos clásicos de LEGO desarrollados por TT Games constituyen una referencia importante para el sistema de comunicación narrativa sin actuación de voz completa. Estos juegos lograban transmitir personalidad, humor y emociones mediante animaciones exageradas, expresiones visuales y pequeños sonidos abstractos en lugar de diálogos hablados.
+
+Esta referencia resulta especialmente relevante para \textit{Sir. Garet}, ya que el proyecto busca implementar narrativa basada principalmente en:
+
+\begin{itemize}
+    \item Cuadros de diálogo con texto en pantalla.
+    \item Expresiones corporales y reacciones visuales.
+    \item Sonidos breves y estilizados durante conversaciones.
+    \item Narrativa visual sin depender de doblaje profesional.
+\end{itemize}
+
+El objetivo es conservar un estilo retro y nostálgico que permita comunicar emociones y personalidad sin aumentar innecesariamente la complejidad de producción sonora.
+
+\vspace{0.3cm}
+
+\textbf{Videojuegos de plataformas y aventura en pixel art}  
+También se consideran referencias generales provenientes de videojuegos independientes del género plataformas 2D y aventura en \textit{pixel art}. Estas referencias ayudan a estudiar:
+
+\begin{itemize}
+    \item Diseño de niveles.
+    \item Legibilidad visual.
+    \item Composición de plataformas.
+    \item Uso de efectos visuales y partículas.
+    \item Integración entre combate y exploración.
+    \item Diseño de interfaces minimalistas.
+\end{itemize}
+
+El análisis de estas obras permite comprender soluciones modernas aplicadas a videojuegos con estética retro.
+
+\subsubsection*{Referencias para diálogos sin voces}
+
+Debido a que \textit{Sir. Garet} no contará con actuación de voz, parte importante del análisis se enfoca en videojuegos que logran construir narrativa efectiva mediante texto y expresiones visuales.
+
+Los principales aspectos estudiados incluyen:
+
+\begin{itemize}
+    \item Sistemas de cuadros de diálogo.
+    \item Retratos expresivos de personajes.
+    \item Animaciones durante conversaciones.
+    \item Uso de sonidos abstractos o murmullos.
+    \item Ritmo de lectura e interacción narrativa.
+\end{itemize}
+
+Estas referencias permiten desarrollar un sistema narrativo ligero, coherente con la estética \textit{pixel art} y alineado con el alcance técnico del prototipo.
 
 \begin{itemize}
     \item Estilo visual general.
@@ -14,81 +81,50 @@ Las referencias utilizadas funcionan como apoyo conceptual para definir:
     \item Legibilidad durante combate y exploración.
 \end{itemize}
 
-\subsubsection*{Inspiración en videojuegos}
+Todas las referencias incorporadas deben cumplir criterios relacionados con calidad artística, coherencia estética y aplicabilidad dentro del proyecto. Cada referencia debe aportar valor visual, técnico o narrativo al análisis de diseño.
 
-Diversos videojuegos independientes sirven como referencia para analizar soluciones visuales y mecánicas aplicables al proyecto.
-
-\begin{itemize}
-
-    \item \textbf{\emph{Hollow Knight}}  
-    Referencia principal para atmósfera melancólica, narrativa ambiental y construcción de profundidad mediante fondos multicapa.
-
-    \item \textbf{\emph{Blasphemous}}  
-    Inspiración para arquitectura gótica, composición oscura y representación visual de corrupción espiritual.
-
-    \item \textbf{\emph{Dead Cells}}  
-    Referencia para fluidez visual, efectos de impacto y claridad en combate rápido.
-
-    \item \textbf{\emph{Castlevania}}  
-    Inspiración clásica para exploración de castillos, fantasía oscura y enemigos sobrenaturales.
-
-    \item \textbf{\emph{Celeste}}  
-    Referencia para precisión visual en plataformas y lectura clara de escenarios interactivos.
-
-\end{itemize}
-
-\subsubsection*{Inspiración arquitectónica y ambiental}
-
-El diseño de escenarios toma elementos de arquitectura medieval y gótica para construir una sensación de decadencia y aislamiento.
-
-Entre las principales referencias visuales se consideran:
+Entre los principales criterios considerados destacan:
 
 \begin{itemize}
-    \item Castillos medievales deteriorados.
-    \item Catedrales góticas.
-    \item Bibliotecas antiguas.
-    \item Mazmorras y criptas subterráneas.
-    \item Jardines abandonados y ruinas cubiertas por vegetación.
+    \item Compatibilidad con estética fantástica y medieval.
+    \item Uso adecuado de profundidad visual en escenarios 2D.
+    \item Claridad en siluetas y legibilidad visual.
+    \item Integración efectiva entre narrativa y jugabilidad.
+    \item Implementación de interfaces simples y funcionales.
+    \item Uso de comunicación visual sin voces completas.
 \end{itemize}
 
-Estas referencias ayudan a reforzar la identidad narrativa del reino de Valdorian y su estado de corrupción progresiva.
+Las referencias utilizadas deben funcionar únicamente como apoyo conceptual y académico, evitando imitaciones directas o reutilización de contenido protegido.
 
-\subsubsection*{Color e iluminación}
+\subsubsection*{Elementos de análisis}
 
-La atmósfera visual utiliza principalmente tonos fríos y desaturados para transmitir melancolía, deterioro y tensión sobrenatural.
-
-Los escenarios combinan:
+Cada referencia visual o técnica debe estudiarse considerando distintos aspectos relevantes para el desarrollo de \textit{Chronicles of the Cursed Knight}. Entre los principales elementos de análisis se incluyen:
 
 \begin{itemize}
-    \item Azules grisáceos.
-    \item Violetas oscuros.
-    \item Verdes apagados.
-    \item Sombras profundas.
+    \item \textbf{Color:} paletas utilizadas para transmitir emociones y ambientación.
+    \item \textbf{Silueta:} claridad visual de personajes y enemigos.
+    \item \textbf{Iluminación:} uso de luces y sombras para generar profundidad.
+    \item \textbf{Atmósfera:} construcción emocional del entorno.
+    \item \textbf{Composición:} organización visual de escenarios y plataformas.
+    \item \textbf{Narrativa visual:} formas de comunicar información sin voces.
+    \item \textbf{Animación:} fluidez y expresividad en personajes pixel art.
+    \item \textbf{Interfaz:} integración de diálogos y elementos HUD.
 \end{itemize}
 
-En contraste, los elementos mágicos y puntos importantes utilizan colores más brillantes como:
+El análisis de estos componentes permitirá construir una propuesta visual consistente, funcional y alineada con los objetivos artísticos y narrativos del videojuego.
+
+\subsubsection*{Organización de referencias}
+
+Para facilitar consulta y desarrollo futuro, las referencias pueden organizarse en categorías específicas dentro de la documentación del proyecto:
 
 \begin{itemize}
-    \item Cian.
-    \item Azul luminoso.
-    \item Dorado suave.
+    \item Escenarios y ambientación.
+    \item Personajes y enemigos.
+    \item Interfaces y diálogos.
+    \item Iluminación y atmósfera.
+    \item Animaciones y efectos visuales.
+    \item Plataformas y composición de niveles.
+    \item Narrativa ambiental.
 \end{itemize}
 
-Este contraste permite dirigir la atención del jugador y mantener claridad visual incluso en entornos oscuros.
-
-\subsubsection*{Aplicación dentro del proyecto}
-
-Las referencias visuales permiten mantener coherencia estética entre personajes, escenarios, interfaz y efectos visuales.
-
-Además, sirven como guía para definir criterios comunes dentro del equipo relacionados con:
-
-\begin{itemize}
-    \item Escala de sprites.
-    \item Nivel de detalle.
-    \item Saturación de color.
-    \item Diseño de partículas.
-    \item Composición de escenarios.
-    \item Uso de iluminación y profundidad visual.
-\end{itemize}
-
-El objetivo final consiste en construir una identidad visual consistente que combine fantasía oscura, pixel art y claridad mecánica dentro del prototipo jugable.
+Finalmente, toda referencia utilizada debe indicar claramente su origen y función dentro del análisis, respetando derechos de autor y manteniendo un enfoque exclusivamente académico y conceptual.
