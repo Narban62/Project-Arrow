@@ -28,5 +28,5 @@ Al final de una sección relevante, el jugador se enfrenta a un jefe o enemigo d
 
 \subsubsection*{Desbloqueo de nueva área}
 
-Tras superar el desafío principal, el jugador accede a una nueva zona del castillo. Este desbloqueo puede representarse mediante una puerta abierta, una barrera espiritual eliminada, un ascensor activado o un cambio narrativo en el entorno.
+Tras superar el desafío principal, el jugador accede a una nueva zona. Este desbloqueo puede representarse mediante una puerta abierta, una barrera espiritual eliminada, un ascensor activado o un cambio narrativo en el entorno.
 

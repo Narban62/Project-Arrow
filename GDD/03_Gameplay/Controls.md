@@ -1,36 +1,27 @@
-\subsection{Controles}
+\subsection{Mecánicas principales}
 
-\subsubsection*{Esquema de controles en PC}
+\subsubsection*{Movimiento físico}
 
-\begin{center}
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Entrada} & \textbf{Acción asociada} \\
-\hline
-\texttt{A} / \texttt{D} & Movimiento lateral hacia izquierda o derecha \\
-\hline
-Flechas direccionales & Movimiento lateral alternativo \\
-\hline
-\texttt{Espacio} & Salto \\
-\hline
-Clic izquierdo & Ataque cuerpo a cuerpo con espada \\
-\hline
-Clic derecho & Disparo de proyectil mágico \\
-\hline
-\texttt{Esc} & Pausa del juego \\
-\hline
-\end{tabular}
-\end{center}
+El desplazamiento del personaje se basa en la manipulación directa de su velocidad horizontal. Esta decisión busca evitar movimientos imprecisos o inercias innecesarias, garantizando una respuesta inmediata y consistente para el jugador. La sensación de aceleración puede reforzarse mediante animaciones, aunque el comportamiento mecánico debe conservar claridad y precisión en todo momento.
 
-\subsubsection*{Criterios de usabilidad}
+\subsubsection*{Sistema de salto}
 
-El esquema de control debe ser simple, reconocible y adecuado para jugadores familiarizados con plataformas en PC. Las entradas principales deben poder ejecutarse de manera simultánea, por ejemplo correr y saltar, o moverse mientras se prepara un ataque.
+El salto funciona mediante una detección precisa del contacto con el suelo a través de una verificación ubicada en la parte inferior del personaje. Este mecanismo permite determinar si existe una superficie válida antes de habilitar un nuevo salto.
 
-\subsubsection*{Principios de respuesta}
+Para mejorar la percepción de peso y control, el descenso del personaje utiliza una caída más rápida que el ascenso. Este ajuste incrementa la sensación de impacto al aterrizar y evita que los saltos se perciban excesivamente ligeros o flotantes.
 
-La respuesta del personaje debe ser inmediata. Cada pulsación debe generar un resultado visible y consistente, salvo cuando exista una restricción mecánica clara, como estar en recuperación después de un ataque o no contar con energía suficiente para disparar un proyectil.
+\subsubsection*{Combate a distancia}
 
-\subsubsection*{Accesibilidad inicial}
+El ataque principal consiste en el lanzamiento de flechas mágicas o proyectiles equivalentes. Cada proyectil se genera frente al personaje y se desplaza en la dirección seleccionada con una velocidad determinada.
 
-Aunque el prototipo académico puede iniciar con controles fijos, se recomienda contemplar en fases posteriores un sistema de reasignación de teclas, soporte para mando y opciones de volumen independientes para música y efectos.
+El sistema de combate busca ofrecer precisión y rapidez de respuesta, permitiendo al jugador atacar mientras se desplaza o evade obstáculos. Además, este enfoque amplía las posibilidades estratégicas frente a enemigos ubicados a distintas distancias o en posiciones elevadas.
 
+\subsubsection*{Economía interna}
+
+Los enemigos derrotados y determinadas áreas ocultas recompensan al jugador con \textbf{Diamantes de Almas}. Estos objetos funcionan como moneda interna y pueden utilizarse en puntos de guardado o estatuas especiales para desbloquear mejoras.
+
+Las mejoras principales contemplan el aumento de salud máxima, el incremento del daño base y futuras extensiones relacionadas con habilidades o energía mágica.
+
+\subsubsection*{Retroalimentación al jugador}
+
+Cada acción importante debe comunicar claramente su resultado mediante efectos visuales, sonido, animaciones e interfaz. Los ataques exitosos deben generar señales visibles de impacto; la recolección de recursos debe diferenciarse mediante efectos distintivos; y el daño recibido debe reflejarse de forma inmediata a través de indicadores visuales y un breve periodo de invulnerabilidad temporal.
