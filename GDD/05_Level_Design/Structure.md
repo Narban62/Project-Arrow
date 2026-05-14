@@ -10,15 +10,8 @@ Los Jardines Marchitos funcionan como nivel tutorial. Presentan espacios relativ
 
 Los enemigos iniciales pueden incluir esqueletos de baja movilidad y orcos estáticos o de patrulla corta. La arquitectura debe mostrar ruina exterior: árboles secos, estatuas rotas, rejas oxidadas y muros parcialmente destruidos.
 
-\subsubsection*{Mazmorras del Eco}
-
-Las Mazmorras del Eco presentan espacios cerrados, verticalidad, trampas de pinchos y enemigos con patrones más agresivos. En esta zona se introducen murciélagos, arqueros y segmentos donde el jugador debe combinar salto, combate y lectura de peligros ambientales.
-
-\subsubsection*{Torre del Hechicero}
-
-La Torre del Hechicero representa el tramo final del prototipo o de la primera versión completa. Incluye plataformas móviles, zonas de caída libre, enemigos combinados y el combate contra Zarok. Su diseño debe transmitir ascenso, presión y cercanía al origen de la maldición.
-
 \subsubsection*{Construcción técnica del entorno}
 
-El terreno se construye mediante \texttt{Grid} y \texttt{Tilemap} en Unity. Para optimizar colisiones, se recomienda utilizar \texttt{TilemapCollider2D} junto con \texttt{CompositeCollider2D}, permitiendo unificar superficies y reducir cálculos innecesarios.
+El escenario se desarrolla a partir de una estructura modular basada en cuadrículas, permitiendo organizar plataformas, obstáculos y superficies de manera uniforme. Este enfoque facilita la creación de niveles más consistentes y escalables.
 
+Para mejorar el rendimiento, las superficies sólidas pueden agruparse en colisiones unificadas, reduciendo procesos innecesarios y optimizando la interacción física dentro del entorno.

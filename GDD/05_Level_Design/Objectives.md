@@ -6,15 +6,11 @@ El objetivo principal del jugador es avanzar por las ruinas del castillo, supera
 
 \subsubsection*{Objetivos secundarios}
 
-Los objetivos secundarios incluyen recolectar Diamantes de Almas, descubrir rutas opcionales, encontrar puntos de guardado, desbloquear mejoras y reconstruir la historia del castillo mediante pistas ambientales.
+Los objetivos secundarios incluyen recolectar Diamantes de Almas, descubrir rutas opcionales, encontrar puntos de guardado, desbloquear mejoras y reconstruir la historia.
 
 \subsubsection*{Objetivos por zona}
 
 \textbf{Jardines Marchitos.} Aprender los controles, derrotar enemigos básicos, encontrar el primer checkpoint y acceder a la entrada del castillo.
-
-\textbf{Mazmorras del Eco.} Sobrevivir a trampas, derrotar enemigos con comportamiento variado, descubrir la identidad pasada de Gareth y activar el acceso a la torre.
-
-\textbf{Torre del Hechicero.} Superar desafíos combinados, resistir la manipulación narrativa de Zarok y completar el combate final.
 
 \subsubsection*{Condiciones de éxito}
 
