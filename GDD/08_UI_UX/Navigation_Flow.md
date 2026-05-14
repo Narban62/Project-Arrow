@@ -5,12 +5,8 @@
 El flujo de pantallas se define de la siguiente manera:
 
 \[
-\text{Splash Screen} \rightarrow \text{Main Menu} \rightarrow \text{Core Game} \rightarrow \text{Pause Menu} \rightarrow \text{Game Over / Win Screen}
+\text{Main Menu} \rightarrow \text{Core Game}\rightarrow \text{Game Over / Win Screen}
 \]
-
-\subsubsection*{Splash Screen}
-
-La pantalla inicial muestra el logo del equipo o institución. Su duración debe ser breve y permitir transición automática al menú principal.
 
 \subsubsection*{Main Menu}
 
